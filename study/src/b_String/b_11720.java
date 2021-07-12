@@ -16,7 +16,7 @@ public class b_11720 {
 		int sum=0;
 
 		for(int i=0; i<n; i++) {
-			sum+=num.charAt(i)-'0';
+			sum+=num.charAt(i)-'0';	//charAt()는 해당문자의 아스키코드 값을 반환함 => -'0'또는-48을 해줘야함
 		}
 		
 		System.out.println(sum);
