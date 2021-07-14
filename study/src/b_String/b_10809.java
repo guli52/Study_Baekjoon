@@ -11,9 +11,11 @@ public class b_10809 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String word = br.readLine(); 
 		
+		//char타입도 정수 타입이므로 산술 연산이 가능함
 //		for(char c='a'; c<='z'; c++) {	//indexOf() 이용
 //			System.out.print(word.indexOf(c) + " ");
 //		}
+		
 		
 		int[] intArray = new int[26];
 		for(int i=0; i<intArray.length; i++) {
