@@ -22,9 +22,7 @@ public class b_2675 {
 			for(int j=0; j<S.length(); j++) {
 				for(int k=0; k<R; k++) {
 					P += S.charAt(j);
-					
 				}
-				System.out.println("?");
 			}
 			System.out.println(P);
 			
