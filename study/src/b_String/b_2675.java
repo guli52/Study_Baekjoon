@@ -17,12 +17,17 @@ public class b_2675 {
 			int R = Integer.parseInt(str[0]);
 			String S = str[1];
 			
+			String P = "";
+			
 			for(int j=0; j<S.length(); j++) {
 				for(int k=0; k<R; k++) {
-					System.out.print(S.charAt(j));
+					P += S.charAt(j);
+					
 				}
+				System.out.println("?");
 			}
-			System.out.println();
+			System.out.println(P);
+			
 		}
 	}
 
